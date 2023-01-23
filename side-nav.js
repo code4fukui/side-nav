@@ -1,6 +1,6 @@
 // based on https://www.w3schools.com/howto/howto_js_sidenav.asp
 
-import { MenuIcon } from "./menu-icon.js";
+import { MenuIcon } from "https://js.sabae.cc/menu-icon.js";
 import { style } from "https://js.sabae.cc/css.js";
 
 const css = `
