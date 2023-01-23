@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  padding-bottom: 2em;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Animated Sidenav Example</h2>
+<p>Click on the element below to open the side navigation menu.</p>
+<p>(<a href=https://www.w3schools.com/howto/howto_js_sidenav.asp>How To Create a Side Navigation Menu</a>)</p>
+
+<script type="module">
+import { SideNav } from "./side-nav.js";
+
+document.body.appendChild(new SideNav([
+  { title: "About", url: "#" },
+  { title: "Service", url: "#" },
+  { title: "Clients", url: "#" },
+  { title: "Contact", url: "#" },
+]));
+</script>
+
+<script type="module" src="./dummy-text.js"></script>
+<dummy-text></dummy-text>
+   
+</body>
+</html> 
