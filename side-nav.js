@@ -27,6 +27,8 @@ side-nav a {
   font-size: 25px;
   color: #fff;
   display: block;
+  white-space: nowrap;
+  overflow-x: hidden;
   transition: 0.3s;
 }
 side-nav a:hover {
